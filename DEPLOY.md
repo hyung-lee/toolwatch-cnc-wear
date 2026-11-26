@@ -1,0 +1,1 @@
+Streamlit Community Cloud: repository hyung-lee/toolwatch-cnc-wear, branch main, entrypoint app.py, Python 3.12. No secrets required. CPU inference only. Includes 54 held-out tool images and trained models; no training on server. Nonastreda CC BY 4.0, source DOI 10.17632/m892d2wtzh.1. Actual failure RUL and webcam accuracy are unvalidated.

@@ -1,0 +1,95 @@
+{
+  "dataset": "Nonastreda",
+  "source": "https://huggingface.co/datasets/hubtru/nonastreda",
+  "revision": "f39eea04464926cb19e28150b5fb7bb534bd3ce9",
+  "seed": 42,
+  "split_tools": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation": [
+      7,
+      8
+    ],
+    "test": [
+      9,
+      10
+    ]
+  },
+  "best_epoch": 18,
+  "units": "micrometres",
+  "webcam_validated": false,
+  "wear": {
+    "train": {
+      "MAE": 25.023162841796875,
+      "RMSE": 34.34580612182617,
+      "R2": 0.4217263460159302,
+      "n": 148
+    },
+    "validation": {
+      "MAE": 17.762657165527344,
+      "RMSE": 20.84320640563965,
+      "R2": 0.6181362867355347,
+      "n": 54
+    },
+    "test": {
+      "MAE": 23.850696563720703,
+      "RMSE": 28.72199058532715,
+      "R2": 0.2638341784477234,
+      "n": 54
+    }
+  },
+  "mean_baseline": {
+    "train": {
+      "MAE": 35.81293617712485,
+      "RMSE": 45.165516116321555,
+      "R2": 6.884216530167464e-08,
+      "n": 148
+    },
+    "validation": {
+      "MAE": 30.83954185909695,
+      "RMSE": 36.07605451266225,
+      "R2": -0.1439774331337358,
+      "n": 54
+    },
+    "test": {
+      "MAE": 30.617319778159814,
+      "RMSE": 35.416933734783505,
+      "R2": -0.11935663875865687,
+      "n": 54
+    }
+  },
+  "rul": {
+    "definition": "Remaining run index to last recorded observation; NOT confirmed failure RUL; NOT minutes",
+    "model": "Ridge(alpha=1)",
+    "label_history_test": {
+      "MAE": 0.44533400310884,
+      "RMSE": 0.555592152677855,
+      "R2": 0.9720961864965814,
+      "n": 46
+    },
+    "image_history_test": {
+      "MAE": 3.3259391801189273,
+      "RMSE": 3.933943180386008,
+      "R2": -0.3989671621157642,
+      "n": 46
+    },
+    "run_only_baseline_test": {
+      "MAE": 0.47826086956521724,
+      "RMSE": 0.5154614273559053,
+      "R2": 0.9759816207184628,
+      "n": 46
+    },
+    "constant_baseline_test": {
+      "MAE": 2.875876577840112,
+      "RMSE": 3.328027983270441,
+      "R2": -0.0012102642141254005,
+      "n": 46
+    }
+  }
+}
